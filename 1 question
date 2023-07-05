@@ -1,5 +1,5 @@
 number = int(input ("введите число - ")
 if (number >=7) :
-print ("привет")
+  print ("привет")
 else:
-print ("ваше число : " + str(number))
+  print ("ваше число : " + str(number))
