@@ -1,0 +1,9 @@
+name = input ("введите имя : ")
+if name and name.isalpha():
+  if name.lower() == "вячеслав":
+    print("Привет, Вячеслав!")
+  else:
+    print("такого имени нет.")
+else:
+  print("имя не было введено.")
+  
