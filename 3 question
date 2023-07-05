@@ -1,0 +1,7 @@
+numbers = []
+size = int(input("введите количество чисел массива : "))
+for i in range(size):
+  number = int(input(f"введите число номер {i+1}: "))
+  if number % 3 == 0:
+    numbers.append(number)
+print(f"числа которые делятся на 3 : {numbers}")
